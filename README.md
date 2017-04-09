@@ -27,4 +27,6 @@ This is only a vertical scaling.
 Like all map-reduce functionality we can horizontally scale this problem by diverting a portion of the job set 
 to other hosts and them reducing them in a finalization pipeline.
 
+Regard to number off attributes: This might effect performance a bit as the properties `Map` in `Person` is backed by a `HashMap` which would have to resize. This could be mitigate by setting the known number of attributes (or it's max) when collecting the attribute map.
+
 
