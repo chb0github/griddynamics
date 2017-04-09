@@ -7,7 +7,7 @@ what  do we have to do to make it run 2x faster, is there any difference if we a
 Results
 =====
 
-Included is a `resources/summary.csv` file that includes some statistics; 10000 runs of a Population of 100000. 
+Included is a [summary.csv](src/main/resources/summary.csv) file ([raw data is here](src/main/resources/raw_data.csv)) that includes some statistics; 10000 runs of a Population of 100000. 
 commandline args were: female 100000 10000
 The only difference between the execution of the two is this line:
 
